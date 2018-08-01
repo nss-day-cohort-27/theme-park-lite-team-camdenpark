@@ -8,7 +8,7 @@ let db = require("./db-calls.js");
 
 let typesOfAttractions = {};
 
-db.fetchtypesOfAttractions()
+db.fetchTypes()
    .then((result) => {
    typesOfAttractions = result;
 });
