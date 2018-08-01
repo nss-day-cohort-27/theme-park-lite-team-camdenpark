@@ -63,9 +63,9 @@ dbCalls.fetchTypes = () => {
     });
 };
 
-dbCalls.getParkInfo = () => {
-  return parkInfo;
-};
+// dbCalls.getParkInfo = () => {
+//   return parkInfo;
+// };
 
 
 

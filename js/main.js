@@ -5,4 +5,4 @@ let parkInfo = require("./parkInfo.js");//mark
 let attractions = require("./attractions.js"); //gretchen
 let typesOfAttraction = require("./typesOfAttractions.js");  // grady"s js
 let parkarealisting = require("./parkarealisting.js"); //mark
-let attractions = require("./attractions.js");
+// fun stuff was a false profit
