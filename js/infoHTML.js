@@ -1,9 +1,9 @@
 "use strict";
 function createInfo(title, location, description, opening, closing) {
     return `<h1>${title}</h1>
-            <p>Where: ${location}</p>
+            <h3>Where: ${location}</h3>
             <p>${description}</p>
-            <p>Open from: ${opening} to ${closing}</p>`;
+            <h3>Open from: ${opening} to ${closing}</h3>`;
 
 }
 
