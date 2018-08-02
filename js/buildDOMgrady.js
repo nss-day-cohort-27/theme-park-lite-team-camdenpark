@@ -6,7 +6,7 @@ let dataBase = require("./db-calls.js")
 //3. render them to the DOM
 function listAttractionsTypes() {
     dataBase.fetchTypes().then(types =>{
-        let AttractionTypeComponent = createAttraction(types[0].name) + createAttraction(types[1].name);
+        let AttractionTypeComponent = createAttraction(types.name);
         writeAttractionTypeToDOM(AttractionTypeComponent);
     })
 }
