@@ -8,7 +8,3 @@ let parkarealisting = require("./parkarealisting.js"); //mark
 // fun stuff was a false profit
 RenderAttractions();
 parkInfo();
-<<<<<<< HEAD
-// typesOfAttraction();
-=======
->>>>>>> master
