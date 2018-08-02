@@ -1,10 +1,11 @@
 let db = require("./db-calls.js");
-
-let parkAreaListing = {};
+let parkArea = require("./areasDom.js")
+//let parkAreaListing = {};
 
 db.fetchAreas()
    .then((result) => {
-   parkAreaListing = result;
+   parkArea(result);
+
 });
 
-module.exports = parkAreaListing;
+//module.exports = parkAreaListing;
