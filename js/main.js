@@ -7,3 +7,4 @@ let typesOfAttraction = require("./typesOfAttractions.js");  // grady"s js
 let parkarealisting = require("./parkarealisting.js"); //mark
 // fun stuff was a false profit
 RenderAttractions();
+// typesOfAttraction();
