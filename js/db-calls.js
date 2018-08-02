@@ -28,7 +28,7 @@ dbCalls.fetchParkInfo = () => {
       .then(res => res.json())
       .then((result) => {
         // console.log(typeof result);
-        console.log(result);
+        // console.log(result);
         parkInfo = result;
         return parkInfo;
       },
